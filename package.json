@@ -7,10 +7,10 @@
   "bugs": {
     "url": "https://github.com/nning/svelte-rails/issues"
   },
-  "homepage": "https://github.com/nning/svelte-rails#readme",
+  "homepage": "https://github.com/Wellington3010/svelte-rails#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nning/svelte-rails.git"
+    "url": "git+https://github.com/Wellington3010/svelte-rails.git"
   },
   "main": "svelte_ujs/index.js",
   "exports": {
