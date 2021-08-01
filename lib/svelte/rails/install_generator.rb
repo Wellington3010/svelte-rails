@@ -27,7 +27,7 @@ module Svelte
     end
 
     def update_application_entry
-      path = Pathname.new('app/javascript/packs/application.js')
+      path = Pathname.new('app/frontend/packs/application.js')
       content = File.read(File.join(TEMPLATE_DIR, path))
 
       if path.exist?
