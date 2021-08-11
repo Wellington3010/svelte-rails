@@ -1,6 +1,6 @@
 class SvelteRailsUJS {
   static serverRender(component_name, props) {
-    const requireComponent = require.context('components', true)
+    const requireComponent = require.context('frontend/svelte_components', true)
     const bundle = requireComponent('./' + component_name).default
     const {html} = bundle.render(props)
 
@@ -32,7 +32,7 @@ class SvelteRailsUJS {
       props = JSON.parse(target.dataset.svelteProps)
     }
 
-    const requireComponent = require.context('components', true)
+    const requireComponent = require.context('frontend/svelte_components', true)
     const Component = requireComponent('./' + name).default
 
     console.debug(Component, {target, props, hydrate});

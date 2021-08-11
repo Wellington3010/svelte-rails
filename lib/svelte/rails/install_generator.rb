@@ -14,10 +14,10 @@ module Svelte
     end
 
     def copy_templates
-      copy_template(webpack_dir, 'svelte-environment.js')
-      copy_template(webpack_dir, 'svelte-development.js')
-      copy_template(webpack_dir, 'svelte-production.js')
-      copy_template(webpack_dir, 'svelte-test.js')
+      copy_template(webpack_dir, 'svelte_environment.js')
+      copy_template(webpack_dir, 'svelte_development.js')
+      copy_template(webpack_dir, 'svelte_production.js')
+      copy_template(webpack_dir, 'svelte_test.js')
 
       copy_template(webpack_dir, 'loaders', 'svelte.js')
       copy_template(webpack_dir, 'loaders', 'svelte-ssr.js')
