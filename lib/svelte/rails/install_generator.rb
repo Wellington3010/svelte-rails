@@ -56,7 +56,7 @@ module Svelte
     end
 
     def components_dir
-      File.join(js_dir, 'components')
+      File.join('frontend', 'svelte_components')
     end
 
     def webpack_dir
